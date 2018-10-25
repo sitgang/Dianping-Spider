@@ -1,2 +1,3 @@
 # Dianping-Spider
-Using this framework-free spider I crawled 123GB html page from http://www.dianping.com/ and extracted 144 million comment items from it. Then aggregate with restaurant. In the end we only need to process 20 thousand items. This spider was conducted during May 2017.
+
+This spider was conducted during May 2017. It is a series of scripts that crawled 123G html page from dianping.com and extracted 144 million comment items from the pages. Most of the program does not necessarily work since they are for analytical use thus are coded in convenient yet unrecyclable fashion. The exposition is for inspectors to evaluate my programming ability.
