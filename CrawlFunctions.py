@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+"""
+this script contains frequently used functions
+"""
+
 import requests,re
 from lxml import etree
 from bs4 import BeautifulSoup
