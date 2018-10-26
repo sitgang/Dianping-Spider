@@ -303,17 +303,17 @@ def process_worker():
     pool.join()
 
 
-#try:
-#    process_worker()
-#except KeyboardInterrupt:
-#    print "HAHAHAHAHAHAHAHA"
+try:
+   process_worker()
+except KeyboardInterrupt:
+   print "HAHAHAHAHAHAHAHA"
 for ii in ids:
     worker_job(ii)
-#data = gather_required_data(id_to_df("26996532"))#用来检测
+data = gather_required_data(id_to_df("26996532"))#用来检测
 
-#in_fp = '/Users/xuegeng/Spider_Workspace/crawler/shop_datas.json'
-#id_solved_fp = '/Users/xuegeng/Spider_Workspace/crawler/is_id_solved.json'
-#with open(in_fp,'w') as f:
-#            json.dump([],f)
-#with open(id_solved_fp,'w') as f:
-#            json.dump(dict(map(lambda x:(x,False),return_all_id())),f)
+in_fp = '/Users/xuegeng/Spider_Workspace/crawler/shop_datas.json'
+id_solved_fp = '/Users/xuegeng/Spider_Workspace/crawler/is_id_solved.json'
+with open(in_fp,'w') as f:
+           json.dump([],f)
+with open(id_solved_fp,'w') as f:
+           json.dump(dict(map(lambda x:(x,False),return_all_id())),f)
